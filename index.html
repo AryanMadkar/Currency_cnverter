@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="box">
+        <div id="icon">
+          <img src="icons2.png" alt="logo" />
+        </div>
+        <div id="swift">
+          <h1>Amount:</h1>
+          <input type=" number " id="gold" value="0" />
+        </div>
+        <div id="selectors">
+          <select id="from"></select>
+          <select id="to"></select>
+        </div>
+        <button id="convert">Convert</button>
+        <div id="result">
+          <h1><span id="bit">0</span></h1>
+        </div>
+      </div>
+    </div>
+    <script src="Apikey.js"></script>
+    <script src="currency_codes.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
